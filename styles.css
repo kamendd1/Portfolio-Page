@@ -1,0 +1,45 @@
+body{
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.lower{
+    background-color: #304153;
+}
+
+.lower a{
+    color: #FAFBFB;
+}
+
+.lower p{
+    color: #FAFBFB;
+    padding-bottom: 20px;
+}
+
+.lower span{
+    color: #FAFBFB;
+}
+
+.skills li{
+    list-style: none;
+}
+
+h3{
+    background-color: #3497DA;
+    color: #FAFBFB!important;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h4{
+    color: #FAFBFB!important;
+}
+
+.project{
+    border: 5px solid #3497DA;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
