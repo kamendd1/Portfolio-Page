@@ -2,6 +2,14 @@ body{
     font-family: Tahoma;
     font-size: 14px;
 }
+.row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
 
 .lower{
     background-color: #304153;
