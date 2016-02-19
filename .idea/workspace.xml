@@ -46,7 +46,11 @@
 >>>>>>> refs/remotes/origin/master
 =======
             <state vertical-scroll-proportion="0.55135137">
+<<<<<<< HEAD
               <caret line="27" column="191" selection-start-line="27" selection-start-column="191" selection-end-line="27" selection-end-column="191" />
+>>>>>>> refs/remotes/origin/master
+=======
+              <caret line="27" column="192" selection-start-line="27" selection-start-column="192" selection-end-line="27" selection-end-column="192" />
 >>>>>>> refs/remotes/origin/master
               <folding />
             </state>
@@ -439,7 +443,11 @@
 >>>>>>> refs/remotes/origin/master
 =======
         <state vertical-scroll-proportion="0.55135137">
+<<<<<<< HEAD
           <caret line="27" column="191" selection-start-line="27" selection-start-column="191" selection-end-line="27" selection-end-column="191" />
+>>>>>>> refs/remotes/origin/master
+=======
+          <caret line="27" column="192" selection-start-line="27" selection-start-column="192" selection-end-line="27" selection-end-column="192" />
 >>>>>>> refs/remotes/origin/master
           <folding />
         </state>
