@@ -1,5 +1,4 @@
 body{
-    font-family: Tahoma;
     font-size: 14px;
 }
 .row{
@@ -61,7 +60,15 @@ body {
 h1 {
     color: #eee;
     text-align: center;
-    margin: 20px 0;}
+    margin: 20px 0;
+}
+.info{
+    list-style: none;
+}
+
+.info li{
+    margin-bottom: 2%;
+}
 
 .chart {
     margin: 0 auto;
