@@ -12,6 +12,7 @@ header{
 
 .lower{
     background-color: #304153;
+    padding: 2%;
 }
 
 .lower a{
@@ -76,6 +77,7 @@ h1 {
     height: 100px;
     position: relative;
 }
+
 .doughnutTip {
     position: absolute;
     float: left;
@@ -95,6 +97,7 @@ h1 {
     transform: all .3s;
     pointer-events: none;
 }
+
 .doughnutTip:after {
     position: absolute;
     left: 50%;
@@ -107,15 +110,25 @@ h1 {
     border-top: 6px solid rgba(0,0,0,.7);
     line-height: 0;
 }
+
 .doughnutSummary {
     display: none;
 }
+
 .doughnutSummaryTitle {
     display: none;
 }
+
 .doughnutSummaryNumber {
     display: none;
 }
+
 .chart path:hover {
     opacity: .65;
+}
+
+.footer-menu{
+    list-style: none;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
