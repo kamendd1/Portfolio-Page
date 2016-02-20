@@ -1,13 +1,28 @@
 body{
     font-size: 14px;
 }
+
 .row{
     margin-left: 0!important;
     margin-right: 0!important;
 }
+
 header{
     text-align: center;
     padding: 20px;
+}
+
+.name{
+    font-size: 25px;
+}
+
+.upmenu{
+    list-style: none;
+    padding: 5%;
+}
+
+.maintext{
+    padding: 5%;
 }
 
 .lower{
