@@ -12,6 +12,11 @@ header{
     padding: 20px;
 }
 
+button{
+    padding: 0.5%;
+    border-radius: 10px;
+}
+
 .name{
     font-size: 25px;
 }
@@ -68,7 +73,14 @@ h4{
     margin: 10px;
 }
 
+.footer-menu{
+    list-style: none;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
 
+
+/* CHARTS! */
 body {
     background: #222428;
     font-family: "Oswald", sans-serif;
@@ -142,8 +154,3 @@ h1 {
     opacity: .65;
 }
 
-.footer-menu{
-    list-style: none;
-    padding-top: 1%;
-    padding-bottom: 2%;
-}
