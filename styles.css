@@ -8,7 +8,6 @@ body{
 }
 
 header{
-    text-align: center;
     padding: 20px;
 }
 
@@ -28,6 +27,7 @@ button{
 
 .maintext{
     padding: 5%;
+    text-align: center;
 }
 
 .lower{
