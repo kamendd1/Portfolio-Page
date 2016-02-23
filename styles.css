@@ -13,6 +13,7 @@ header{
 
 button{
     padding: 0.5%;
+    border: none;
     border-radius: 10px;
 }
 
