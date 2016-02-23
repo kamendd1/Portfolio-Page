@@ -22,7 +22,6 @@ button{
 
 .upmenu{
     list-style: none;
-    padding: 5%;
 }
 
 .maintext{
@@ -77,6 +76,11 @@ h4{
     list-style: none;
     padding-top: 1%;
     padding-bottom: 2%;
+}
+
+dt {
+    font-weight: bold;
+    text-align: center;
 }
 
 
