@@ -23,6 +23,7 @@ button{
 
 .upmenu{
     list-style: none;
+    margin-top: 3%;
 }
 
 .maintext{
@@ -84,6 +85,47 @@ dt {
     text-align: center;
 }
 
+.resp{
+    background-image: url("images/Devices/laptopsketch.png");
+    background-size: 100% 100%;
+    padding: 5%;
+}
+.resp h2{
+    padding-left: 18%;
+    padding-bottom: 15%;
+    font-family: Ubuntu;
+}
+
+.front{
+    background-image: url("images/Devices/ipad.png");
+    background-size: 100% 100%;
+    padding: 5%;
+}
+.front h2{
+    padding-left: 30%;
+    padding-bottom: 14%;
+    font-family: Ubuntu;
+}
+.end{
+    background-image: url("images/Devices/05-iphone-mockup-pencil-sketching-1.jpg");
+    background-size: 100% 100%;
+    padding: 5%;
+}
+.end h2{
+    padding-left: 15%;
+    padding-bottom: 10%;
+    font-family: Ubuntu;
+}
+.develop{
+    background-image: url("images/Devices/television-outline-hi.png");
+    background-size: 100% 100%;
+    padding: 5%;
+}
+.develop h2{
+    padding-left: 26%;
+    padding-bottom: 15%;
+    font-family: Ubuntu;
+}
 
 /* CHARTS! */
 body {
