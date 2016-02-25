@@ -37,7 +37,6 @@ button a:hover{
 }
 
 .lower{
-    background-color: #304153;
     padding: 2%;
 }
 
@@ -63,7 +62,7 @@ h3{
     background-color: #3497DA;
     color: #FAFBFB!important;
     width: 20%;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
     border-radius: 10px;
 }
@@ -72,11 +71,18 @@ h4{
     color: #FAFBFB!important;
 }
 
-.project{
-    border: 5px solid #3497DA;
+.project-odd{
+    background-color: #304153;
     border-radius: 10px;
     padding: 3%;
-    margin: 10px;
+    margin-top: 2%;
+}
+
+.project-even{
+    background-color: #3497DA;
+    border-radius: 10px;
+    padding: 3%;
+    margin-top: 2%;
 }
 
 .footer-menu{
