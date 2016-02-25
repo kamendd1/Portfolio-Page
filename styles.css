@@ -17,6 +17,11 @@ button{
     border-radius: 10px;
 }
 
+button a:hover{
+    color: #e1edf7;
+    text-decoration: none;
+}
+
 .name{
     font-size: 25px;
 }
@@ -105,7 +110,7 @@ dt {
     padding-bottom: 14%;
 }
 .end{
-    background-image: url("images/Devices/05-iphone-mockup-pencil-sketching-1.jpg");
+    background-image: url("images/Devices/iphone-6-plus.png");
     background-size: 100% 100%;
     padding: 5%;
 }
