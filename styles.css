@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");
+}
+
 body{
     font-size: 14px;
 }
@@ -58,10 +63,6 @@ button a:hover{
     text-align: center;
 }
 
-h2{
-    text-transform: uppercase;
-}
-
 h3{
     background-color: #3497DA;
     color: #FAFBFB!important;
@@ -71,8 +72,9 @@ h3{
     border-radius: 10px;
 }
 
-h4{
-    color: #FAFBFB!important;
+.project-heading{
+    color: #FAFBFB;
+    font-size: 24px;
 }
 
 p{
@@ -104,13 +106,18 @@ dt {
     text-align: center;
 }
 
+
+/*RESPONSIVE FRONT END DEVELOPMENT HEADING!*/
+
 .resp{
     background-image: url("images/Devices/laptopsketch.png");
     background-size: 100% 100%;
     padding: 5%;
 }
-.resp h2{
-    padding-left: 12%;
+.resp p{
+    font-family: Ubuntu;
+    font-size: 30px;
+    padding-left: 16%;
     padding-bottom: 18%;
 }
 
@@ -119,25 +126,33 @@ dt {
     background-size: 100% 100%;
     padding: 5%;
 }
-.front h2{
+.front p{
+    font-family: Ubuntu;
+    font-size: 30px;
     padding-left: 20%;
-    padding-bottom: 14%;
+    padding-bottom: 25%;
 }
+
 .end{
     background-image: url("images/Devices/iphone-6-plus.png");
     background-size: 100% 100%;
     padding: 5%;
 }
-.end h2{
-    padding-left: 10%;
-    padding-bottom: 10%;
+.end p{
+    font-family: Ubuntu;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-bottom: 20%;
 }
 .develop{
     background-image: url("images/Devices/television-outline-hi.png");
     background-size: 100% 100%;
     padding: 5%;
 }
-.develop h2{
+
+.develop p{
+    font-family: Ubuntu;
+    font-size: 30px;
     padding-left: 16%;
     padding-bottom: 15%;
 }
@@ -160,12 +175,12 @@ dt {
     -ms-transition: all .3s;
 }
 
-.icons a.twitter { background: url(images/social-icons-sprites/img/social-icons/twitter.png) left top no-repeat; }
-.icons a.linkedin { background: url(images/social-icons-sprites/img/social-icons/linkedin.png) left top no-repeat; }
-.icons a.facebook { background: url(images/social-icons-sprites/img/social-icons/facebook.png) left top no-repeat; }
-.icons a.email { background: url(images/social-icons-sprites/img/social-icons/email.png) left top no-repeat; }
-.icons a.github { background: url(images/social-icons-sprites/img/social-icons/github.png) left top no-repeat; }
-.icons a.skype { background: url(images/social-icons-sprites/img/social-icons/skype.png) left top no-repeat; }
+.twitter { background: url(images/social-icons-sprites/img/social-icons/twitter.png) left top no-repeat; }
+.linkedin { background: url(images/social-icons-sprites/img/social-icons/linkedin.png) left top no-repeat; }
+.facebook { background: url(images/social-icons-sprites/img/social-icons/facebook.png) left top no-repeat; }
+.email { background: url(images/social-icons-sprites/img/social-icons/email.png) left top no-repeat; }
+.github { background: url(images/social-icons-sprites/img/social-icons/github.png) left top no-repeat; }
+.skype { background: url(images/social-icons-sprites/img/social-icons/skype.png) left top no-repeat; }
 
 .icons a:hover { background-position: left -34px; }
 
