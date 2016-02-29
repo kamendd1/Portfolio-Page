@@ -58,6 +58,10 @@ button a:hover{
     text-align: center;
 }
 
+h2{
+    text-transform: uppercase;
+}
+
 h3{
     background-color: #3497DA;
     color: #FAFBFB!important;
@@ -69,6 +73,10 @@ h3{
 
 h4{
     color: #FAFBFB!important;
+}
+
+p{
+    text-align: justify;
 }
 
 .project-odd{
@@ -102,7 +110,7 @@ dt {
     padding: 5%;
 }
 .resp h2{
-    padding-left: 18%;
+    padding-left: 12%;
     padding-bottom: 18%;
 }
 
@@ -112,7 +120,7 @@ dt {
     padding: 5%;
 }
 .front h2{
-    padding-left: 27%;
+    padding-left: 20%;
     padding-bottom: 14%;
 }
 .end{
@@ -121,7 +129,7 @@ dt {
     padding: 5%;
 }
 .end h2{
-    padding-left: 18%;
+    padding-left: 10%;
     padding-bottom: 10%;
 }
 .develop{
@@ -130,7 +138,7 @@ dt {
     padding: 5%;
 }
 .develop h2{
-    padding-left: 27%;
+    padding-left: 16%;
     padding-bottom: 15%;
 }
 
