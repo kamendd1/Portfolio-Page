@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="images/favicomatic-flip/favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular&subset=Latin,Cyrillic">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <title>Kamen Damyanov - Front End Developer</title>
@@ -21,10 +22,10 @@
         <button class="btn-primary col-md-1 col-xs-1 col-md-offset-6 hire">Hire Kamen</button>
     </section>
     <section class="row">
-        <section class="col-md-3 col-md-offset-1 col-xs-4 resp"><h2>Responsive</h2></section>
-        <section class="col-md-2 col-xs-2 front"><h2>Front</h2></section>
-        <section class="col-md-1 col-xs-2 end"><h2>End</h2></section>
-        <section class="col-md-4 col-xs-4 develop"><h2>Development</h2></section>
+        <section class="col-md-3 col-md-offset-1 col-xs-4 resp"><p>Responsive</p></section>
+        <section class="col-md-2 col-xs-2 front"><p>Front</p></section>
+        <section class="col-md-1 col-xs-2 end"><p>End</p></section>
+        <section class="col-md-4 col-xs-4 develop"><p>Development</p></section>
     </section>
     <dl class="row upmenu">
                 <dt class="col-xs-offset-2 col-md-offset-4 col-xs-2 col-md-1">HTML<br/><img class="col-xs-12" src="images/Logos/HTML5_Badge_512.png"></dt>
@@ -37,7 +38,7 @@
     <section class="upper row">
         <h3 class="col-xs-12">About Me</h3>
         <section class="col-xs-12">
-            <ul class="info col-md-4 col-xs-6">
+            <ul class="info col-md-4 col-xs-7">
             <li><strong>Birth Date:</strong> 08.10.1986</li>
             <li><strong>Telephone:</strong> 00359 889 332 490</li>
             <li><strong>E-Mail:</strong> kamen_damianov@abv.bg</li>
@@ -55,7 +56,7 @@
                 </div>
             </li>
             </ul>
-            <img src="https://scontent.fsof1-1.fna.fbcdn.net/hphotos-xpf1/v/t1.0-9/282133_2308008103362_2901997_n.jpg?oh=c29f4558fa4618a00e6f92d6c6ee3002&oe=575BF8A9" class="col-md-4 col-xs-6">
+            <img src="https://scontent.fsof1-1.fna.fbcdn.net/hphotos-xpf1/v/t1.0-9/282133_2308008103362_2901997_n.jpg?oh=c29f4558fa4618a00e6f92d6c6ee3002&oe=575BF8A9" class="col-md-4 col-xs-5">
              <p class="col-md-4 col-xs-12">
                  Successfully gratuated the full "Front End Module" at the "Telerik Software Academy" in Sofia.
                  Studied modern website development with HTML5, CSS3 and JavaScript plus many related libraries used in the process.
@@ -95,47 +96,51 @@
         </section>
     </section>
     <section class="lower">
-        <section class="experience">
+        <section class="experience row">
             <h3>Experience:</h3>
-            <article class="project-odd">
-                <h4>Lord of The Drinks Project </h4> <span>2015</span>
-                <p>The first project I have participated in was a Teamwork task at the "Telerik Software Academy".
-                    It is a web application for Bartenders education. I was in charge mainly of the CSS and Photoshop
-                    work
-                    but also contributed to the JavaScript side as seen in the GitHub Repo of the project.</p>
-                <button class="btn-success pull-right"><a href="https://cdn.rawgit.com/Between-The-Sheets/Lord-Of-The-Drinks-Project/master/index.html">
-                    Test Project</a></button>
+            <article class="project-odd col-md-6 col-xs-12">
+                <h4 class="project-heading">Lord of The Drinks Project </h4> <span>2015</span>
+                <p>
+                    The first project I have participated in was a Teamwork task at the "Telerik Software Academy".
+                    It is a web application for Bartenders education. Users get a random cocktail and have to guess the ingredients.
+                    The app has two endings depending on if the user has guessed right the ingredients to a cocktail.
+                    I was in charge mainly of the CSS and Photoshop work but also contributed to the JavaScript side as seen in the GitHub Repo of the project.
+                </p>
+                <button class="btn-success pull-right">
+                    <a href="https://cdn.rawgit.com/Between-The-Sheets/Lord-Of-The-Drinks-Project/master/index.html">Test Project</a>
+                </button>
                 <button class="btn-primary pull-right">
-                    <a href="http://best.telerikacademy.com/projects/39/Lord-Of-The-Drinks" target="_blank">Browse Project</a></button>
+                    <a href="http://best.telerikacademy.com/projects/39/Lord-Of-The-Drinks" target="_blank">Browse Project</a>
+                </button>
             </article>
-            <article class="project-even">
-                <h4>BaCARdi Dealers </h4> <span>2015</span>
-                <p>My second Teamwork project at the "Telerik Software Academy" is a Single Page Application about Car
-                    Dealership.
-                    Users can register accounts, login, logout and publish offers about cars, browse all offers and rate
-                    them.
-                    Offers can be sorted by price, publish date and rating - ascending and descending. The App was
-                    developed using
-                    SammyJS, Bootstrap and jQuery. I participated in the Whole process.</p>
-                <button class="btn-success pull-right"><a href="http://telerik-academy-js-apps-team-bacardi.github.io/CarDealership/#/" target="_blank">
-                    Test Project</a></button>
-                <button class="btn-primary pull-right"><a href="http://best.telerikacademy.com/projects/77/BaCARdi-Dealers" target="_blank">
-                    Browse Project</a></button>
+            <article class="project-even col-md-6 col-xs-12">
+                <h4 class="project-heading">BaCARdi Dealers </h4> <span>2015</span>
+                <p>
+                    My second Teamwork project at the "Telerik Software Academy" is a Single Page Application about Car Dealership.
+                    Users can register accounts, login, logout and publish offers about cars, browse all offers and rate them.
+                    Offers can be sorted by price, publish date and rating - ascending and descending.
+                    The App wasdeveloped using SammyJS, Bootstrap and jQuery. I participated in the Whole process.
+                </p>
+                <button class="btn-success pull-right">
+                    <a href="http://telerik-academy-js-apps-team-bacardi.github.io/CarDealership/#/" target="_blank">Test Project</a>
+                </button>
+                <button class="btn-primary pull-right">
+                    <a href="http://best.telerikacademy.com/projects/77/BaCARdi-Dealers" target="_blank">Browse Project</a>
+                </button>
             </article>
 
 
-            <article class="project-odd">
-                <h4>Webly Agency </h4> <span>2015-2016</span>
-                <p>My Final Project for the Front End Module at the "Telerik Software Academy". This is a Single Page
-                    Application
-                    for a Real Estate Agency. The design was given as a task for the Final Exam and I had to implement
-                    it.
+            <article class="project-odd col-xs-12">
+                <h4 class="project-heading">Webly Agency </h4> <span>2015-2016</span>
+                <p>
+                    My Final Project for the Front End Module at the "Telerik Software Academy".
+                    This is a Single Page Application for a Real Estate Agency.
+                    The design was given as a task for the Final Exam and I had to implement it.
                     The app is responsive and can be browsed on all devices - from Smartphones to Big Screen TVs.
-                    Users can register accounts, login, logout and publish offers about Real Estate, browse all offers
-                    and comment on them.
-                    Offers can be sorted by price, publish date and rating - ascending and descending. The App was
-                    developed using
-                    AngularJS, Bootstrap and Parse.com. </p>
+                    Users can register accounts, login, logout and publish offers about Real Estate, browse all offers and comment on them.
+                    Offers can be sorted by price, publish date and rating - ascending and descending.
+                    The App was developed using AngularJS, Bootstrap and Parse.com.
+                </p>
                 <button class="btn-success pull-right"><a href="http://kamendd1.github.io/Urban-Shop" target="_blank">
                     Test Project</a></button>
                 <button class="btn-primary pull-right" href=""><a href="http://best.telerikacademy.com/projects/227/Webly-Real-Estate" target="_blank">
@@ -143,10 +148,10 @@
             </article>
 
         </section>
-        <section>
+        <section class="education row">
             <h3>Education:</h3>
-            <article class="project-odd">
-            <h4>Telerik Software Academy</h4> <span>2015-2016</span>
+            <article class="project-odd col-xs-12">
+            <h4 class="project-heading">Telerik Software Academy</h4> <span>2015-2016</span>
             <p>Starting from March 2015 I’ve been studiyng in the “Telerik Software Academy” in Sofia.
                 I’ve taken courses and passed exams on HTML5, CSS3, JavaScript Fundamentals, OOP, UI & DOM, Single Page
                 Apps, Angular JS, UX Design, Photoshop and Website Slicing.
@@ -166,13 +171,13 @@
                     View Certificate</a></button>
             </article>
 
-            <article class="project-even">
-            <h4>Sofia University</h4> <span>2010-2015</span>
+            <article class="project-even col-md-6 col-xs-12">
+            <h4 class="project-heading">Sofia University</h4> <span>2010-2015</span>
             <p>I have a Bachelor Degree of History and Ethnology from the Sofia University</p>
             </article>
 
-            <article class="project-odd">
-            <h4>National HighSchool of Ancient Languages and Cultures</h4> <span>2001-2005</span>
+            <article class="project-odd col-md-6 col-xs-12">
+            <h4 class="project-heading">National HighSchool of Ancient Languages and Cultures</h4> <span>2001-2005</span>
             <p>Higher National Diploma: Bulgarian and World History; Bulgarian and World Ancient Culture.</p>
             </article>
         </section>
