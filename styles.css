@@ -27,11 +27,11 @@ button a:hover{
     text-decoration: none;
 }
 
-.name{
-    font-size: 25px;
+.name {
+    font-size: 22px;
 }
 
-.upmenu{
+.technologies{
     list-style: none;
     margin-top: 3%;
 }
@@ -106,8 +106,31 @@ dt {
     text-align: center;
 }
 
+.upper-menu{
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.upper-menu a{
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #3497DA;
+    padding: 8%;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.upper-menu a:hover{
+    cursor: pointer;
+    color: lightskyblue;
+    text-decoration: none;
+}
 
 /*RESPONSIVE FRONT END DEVELOPMENT HEADING!*/
+.devices{
+    padding-top: 3%;
+}
 
 .resp{
     background-image: url("images/Devices/laptopsketch.png");
@@ -141,7 +164,7 @@ dt {
 .end p{
     font-family: Ubuntu;
     font-size: 30px;
-    padding-left: 20%;
+    padding-left: 16%;
     padding-bottom: 20%;
 }
 .develop{
@@ -153,7 +176,7 @@ dt {
 .develop p{
     font-family: Ubuntu;
     font-size: 30px;
-    padding-left: 16%;
+    padding-left: 18%;
     padding-bottom: 15%;
 }
 
