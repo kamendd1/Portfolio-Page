@@ -12,22 +12,28 @@
 <div class="container-fluid">
 <header>
     <section class="row">
-        <article class="col-md-5 col-xs-11 row">
+        <article class="col-md-4 col-xs-10 row">
             <img src="images/icon-flip.png" class="col-md-3 col-xs-2">
             <article>
-                 <h5 class="col-md-8 col-xs-10 name">Kamen Damyanov</h5>
-                 <strong class="col-md-8 col-xs-10">Front End Developer</strong>
+                 <h5 class="col-md-7 col-xs-10 name">Kamen Damyanov</h5>
+                 <strong class="col-md-6 col-xs-10 front-end">Front End Developer</strong>
             </article>
         </article>
-        <button class="btn-primary col-md-1 col-xs-1 col-md-offset-6 hire">Hire Kamen</button>
+        <ul class="col-md-8 col-xs-12 upper-menu">
+            <li class='col-xs-2 col-xs-offset-1'><a id="about-up" onclick="$('#about').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">About Me</a></li>
+            <li class='col-xs-2'><a id="skills-up" onclick="$('#skills').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">Skills</a></li>
+            <li class='col-xs-2'><a id="experience-up" onclick="$('#experience').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">Experience</a></li>
+            <li class='col-xs-2'><a id="education-up" onclick="$('#education').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">Education</a></li>
+            <li class="col-xs-2"><a>Hire Kamen</a></li>
+        </ul>
     </section>
-    <section class="row">
+    <section class="row devices">
         <section class="col-md-3 col-md-offset-1 col-xs-4 resp"><p>Responsive</p></section>
         <section class="col-md-2 col-xs-2 front"><p>Front</p></section>
         <section class="col-md-1 col-xs-2 end"><p>End</p></section>
         <section class="col-md-4 col-xs-4 develop"><p>Development</p></section>
     </section>
-    <dl class="row upmenu">
+    <dl class="row technologies">
                 <dt class="col-xs-offset-2 col-md-offset-4 col-xs-2 col-md-1">HTML<br/><img class="col-xs-12" src="images/Logos/HTML5_Badge_512.png"></dt>
                 <dt class="col-xs-2 col-md-1 row">CSS<br/><img class="col-xs-12" src="images/Logos/css3-logo.png"></dt>
                 <dt class="col-xs-2 col-md-1 row">JavaScript<br/><img class="col-xs-12" src="images/Logos/js-logo-badge-512.png"></dt>
@@ -36,7 +42,7 @@
 </header>
 <main>
     <section class="upper row">
-        <h3 class="col-xs-12">About Me</h3>
+        <h3 class="col-xs-12" id="about">About Me</h3>
         <section class="col-xs-12">
             <ul class="info col-md-4 col-xs-7">
             <li><strong>Birth Date:</strong> 08.10.1986</li>
@@ -58,14 +64,14 @@
             </ul>
             <img src="https://scontent.fsof1-1.fna.fbcdn.net/hphotos-xpf1/v/t1.0-9/282133_2308008103362_2901997_n.jpg?oh=c29f4558fa4618a00e6f92d6c6ee3002&oe=575BF8A9" class="col-md-4 col-xs-5">
              <p class="col-md-4 col-xs-12">
-                 Successfully gratuated the full "Front End Module" at the "Telerik Software Academy" in Sofia.
+                 Successfully graduated the full "Front End Module" at the "Telerik Software Academy" in Sofia.
                  Studied modern website development with HTML5, CSS3 and JavaScript plus many related libraries used in the process.
                  My favourite ones turned out to be "Bootstrap" and "AngularJS".
                  Enthusiastic about responsive Front end design and its' implementation.
              </p>
         </section>
         <section class="skills row">
-            <h3 class="col-xs-12">Skills</h3>
+            <h3 class="col-xs-12" id="skills">Skills</h3>
             <ul class="row">
                 <li class="col-xs-2 col-xs-offset-1">
                     <div id="htmlChart" class="chart"></div>
@@ -96,7 +102,7 @@
         </section>
     </section>
     <section class="lower">
-        <section class="experience row">
+        <section class="experience row" id="experience">
             <h3>Experience:</h3>
             <article class="project-odd col-md-6 col-xs-12">
                 <h4 class="project-heading">Lord of The Drinks Project </h4> <span>2015</span>
@@ -107,7 +113,7 @@
                     I was in charge mainly of the CSS and Photoshop work but also contributed to the JavaScript side as seen in the GitHub Repo of the project.
                 </p>
                 <button class="btn-success pull-right">
-                    <a href="https://cdn.rawgit.com/Between-The-Sheets/Lord-Of-The-Drinks-Project/master/index.html">Test Project</a>
+                    <a href="https://cdn.rawgit.com/Between-The-Sheets/Lord-Of-The-Drinks-Project/master/index.html" target="_blank">Test Project</a>
                 </button>
                 <button class="btn-primary pull-right">
                     <a href="http://best.telerikacademy.com/projects/39/Lord-Of-The-Drinks" target="_blank">Browse Project</a>
@@ -148,7 +154,7 @@
             </article>
 
         </section>
-        <section class="education row">
+        <section class="education row" id="education">
             <h3>Education:</h3>
             <article class="project-odd col-xs-12">
             <h4 class="project-heading">Telerik Software Academy</h4> <span>2015-2016</span>
@@ -193,9 +199,15 @@
     </ul>
 </footer>
 
+
+<!--  LIBS  -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="js/animatescroll.js-master/animatescroll.js-master/animatescroll.js"></script>
 <script src="js/charts/drawCharts.js"></script>
 <script src="js/charts/charts.js"></script>
+
+<!--  My Skripts  -->
+<script src="js/animate.js"></script>
 
 </div>
 </body>
