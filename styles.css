@@ -106,6 +106,10 @@ dt {
     text-align: center;
 }
 
+#sticky{
+    background-color: whitesmoke;
+}
+
 .upper-menu{
     list-style: none;
     padding-top: 2%;
@@ -115,10 +119,9 @@ dt {
 .upper-menu a{
     text-transform: uppercase;
     font-weight: 600;
-    background-color: #3497DA;
     padding: 8%;
     border-radius: 10px;
-    color: aliceblue;
+    color: #3497DA;
 }
 
 .upper-menu a:hover{
@@ -129,7 +132,7 @@ dt {
 
 /*RESPONSIVE FRONT END DEVELOPMENT HEADING!*/
 .devices{
-    padding-top: 3%;
+    padding-top: 10%;
 }
 
 .resp{
