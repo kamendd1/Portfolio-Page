@@ -13,7 +13,7 @@
 <header>
     <section class="row navbar navbar-fixed-top sticky" id="sticky">
         <article class="col-md-4 col-xs-12 row">
-            <a onclick="$('.devices').animatescroll({scrollSpeed:2000})">
+            <a class="logo-text" onclick="$('.devices').animatescroll({scrollSpeed:2000})">
             <img src="images/icon-flip.png" class="col-md-3 col-xs-2">
             <article>
                  <h5 class="col-md-7 col-xs-10 name">Kamen Damyanov</h5>
@@ -22,10 +22,10 @@
             </a>
         </article>
         <ul class="col-md-8 col-xs-12 upper-menu">
-            <li class='col-xs-2 col-xs-offset-1'><a id="about-up" onclick="$('#about').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">About Me</a></li>
+            <li class='col-xs-2 col-xs-offset-1'><a id="about-up" onclick="$('.about').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">About Me</a></li>
             <li class='col-xs-2'><a id="skills-up" onclick="$('#skills').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">Skills</a></li>
-            <li class='col-xs-2'><a id="experience-up" onclick="$('#experience').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">Experience</a></li>
-            <li class='col-xs-2'><a id="education-up" onclick="$('#education').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">Education</a></li>
+            <li class='col-xs-2'><a id="experience-up" onclick="$('.experience').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">Experience</a></li>
+            <li class='col-xs-2'><a id="education-up" onclick="$('.education').animatescroll({scrollSpeed:2000,easing:'easeOutBack'})">Education</a></li>
             <li class="col-xs-2"><a>Hire Kamen</a></li>
         </ul>
     </section>
@@ -44,7 +44,7 @@
 </header>
 <main>
     <section class="upper row">
-        <h3 class="col-xs-12" id="about">About Me</h3>
+        <h3 class="col-xs-12 about">About Me</h3>
         <section class="col-xs-12">
             <ul class="info col-md-4 col-xs-7">
             <li><strong>Birth Date:</strong> 08.10.1986</li>
@@ -106,6 +106,7 @@
     <section class="lower">
         <section class="experience row" id="experience">
             <h3>Experience:</h3>
+            <article class="flex col-xs-12">
             <article class="project-odd col-md-6 col-xs-12">
                 <h4 class="project-heading">Lord of The Drinks Project </h4> <span>2015</span>
                 <p>
@@ -114,12 +115,8 @@
                     The app has two endings depending on if the user has guessed right the ingredients to a cocktail.
                     I was in charge mainly of the CSS and Photoshop work but also contributed to the JavaScript side as seen in the GitHub Repo of the project.
                 </p>
-                <button class="btn-success pull-right">
-                    <a href="https://cdn.rawgit.com/Between-The-Sheets/Lord-Of-The-Drinks-Project/master/index.html" target="_blank">Test Project</a>
-                </button>
-                <button class="btn-primary pull-right">
-                    <a href="http://best.telerikacademy.com/projects/39/Lord-Of-The-Drinks" target="_blank">Browse Project</a>
-                </button>
+                    <a class="btn-success pull-right project-button" href="https://cdn.rawgit.com/Between-The-Sheets/Lord-Of-The-Drinks-Project/master/index.html" target="_blank">Test Project</a>
+                    <a class="btn-primary pull-right project-button" href="http://best.telerikacademy.com/projects/39/Lord-Of-The-Drinks" target="_blank">Browse Project</a>
             </article>
             <article class="project-even col-md-6 col-xs-12">
                 <h4 class="project-heading">BaCARdi Dealers </h4> <span>2015</span>
@@ -129,14 +126,10 @@
                     Offers can be sorted by price, publish date and rating - ascending and descending.
                     The App wasdeveloped using SammyJS, Bootstrap and jQuery. I participated in the Whole process.
                 </p>
-                <button class="btn-success pull-right">
-                    <a href="http://telerik-academy-js-apps-team-bacardi.github.io/CarDealership/#/" target="_blank">Test Project</a>
-                </button>
-                <button class="btn-primary pull-right">
-                    <a href="http://best.telerikacademy.com/projects/77/BaCARdi-Dealers" target="_blank">Browse Project</a>
-                </button>
+                    <a class="btn-success pull-right project-button" href="http://telerik-academy-js-apps-team-bacardi.github.io/CarDealership/#/" target="_blank">Test Project</a>
+                    <a class="btn-primary pull-right project-button" href="http://best.telerikacademy.com/projects/77/BaCARdi-Dealers" target="_blank">Browse Project</a>
             </article>
-
+            </article>
 
             <article class="project-odd col-xs-12">
                 <h4 class="project-heading">Webly Agency </h4> <span>2015-2016</span>
@@ -149,10 +142,8 @@
                     Offers can be sorted by price, publish date and rating - ascending and descending.
                     The App was developed using AngularJS, Bootstrap and Parse.com.
                 </p>
-                <button class="btn-success pull-right"><a href="http://kamendd1.github.io/Urban-Shop" target="_blank">
-                    Test Project</a></button>
-                <button class="btn-primary pull-right" href=""><a href="http://best.telerikacademy.com/projects/227/Webly-Real-Estate" target="_blank">
-                    Browse Project</a></button>
+                    <a class="btn-success pull-right project-button" href="http://kamendd1.github.io/Urban-Shop" target="_blank"> Test Project</a>
+                    <a class="btn-primary pull-right project-button" href="http://best.telerikacademy.com/projects/227/Webly-Real-Estate" target="_blank">Browse Project</a>
             </article>
 
         </section>
@@ -175,18 +166,17 @@
                 learnt about using SystemJS to modulrise the code, the principles of asynchronous programming using AJAX
                 Requests, Unit testing
                 with MochaJS and ChaiJS</p>
-                <button class="btn-success pull-right" href=""><a href="http://telerikacademy.com/Certificates/View/1930/772e5abb" target="_blank">
-                    View Certificate</a></button>
+                <a class="btn-success pull-right project-button" href="http://telerikacademy.com/Certificates/View/1930/772e5abb" target="_blank">View Certificate</a></button>
             </article>
-
+            <article class="flex col-xs-12">
             <article class="project-even col-md-6 col-xs-12">
             <h4 class="project-heading">Sofia University</h4> <span>2010-2015</span>
             <p>I have a Bachelor Degree of History and Ethnology from the Sofia University</p>
             </article>
-
             <article class="project-odd col-md-6 col-xs-12">
             <h4 class="project-heading">National HighSchool of Ancient Languages and Cultures</h4> <span>2001-2005</span>
             <p>Higher National Diploma: Bulgarian and World History; Bulgarian and World Ancient Culture.</p>
+            </article>
             </article>
         </section>
     </section>
@@ -209,7 +199,6 @@
 <script src="js/charts/charts.js"></script>
 
 <!--  My Skripts  -->
-<script src="js/animate.js"></script>
 
 </div>
 </body>
