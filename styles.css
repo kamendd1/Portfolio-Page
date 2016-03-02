@@ -16,13 +16,28 @@ header{
     padding: 20px;
 }
 
-button{
-    padding: 0.5%;
-    border: none;
+p{
+    text-align: justify;
+}
+
+
+h3{
+    background-color: #3497DA;
+    color: #FAFBFB!important;
+    width: 20%;
+    padding: 2%;
+    text-align: center;
     border-radius: 10px;
 }
 
-button a:hover{
+.project-button{
+    padding: 1%;
+    border: none;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+
+.project-button:hover{
     color: #e1edf7;
     text-decoration: none;
 }
@@ -63,22 +78,9 @@ button a:hover{
     text-align: center;
 }
 
-h3{
-    background-color: #3497DA;
-    color: #FAFBFB!important;
-    width: 20%;
-    padding: 2%;
-    text-align: center;
-    border-radius: 10px;
-}
-
 .project-heading{
     color: #FAFBFB;
     font-size: 24px;
-}
-
-p{
-    text-align: justify;
 }
 
 .project-odd{
@@ -106,7 +108,7 @@ dt {
     text-align: center;
 }
 
-#sticky{
+.sticky{
     background-color: whitesmoke;
 }
 
@@ -129,6 +131,19 @@ dt {
     color: lightskyblue;
     text-decoration: none;
 }
+.flex{
+    display: flex;
+    padding: 0!important;
+    margin-top: 2%;
+}
+
+.logo-text:hover{
+    cursor: pointer;
+    color: lightskyblue;
+}
+
+/*Padding for Fixed Navbar*/
+
 
 /*RESPONSIVE FRONT END DEVELOPMENT HEADING!*/
 .devices{
